@@ -1,5 +1,19 @@
 {
-  "inbounds": [
+  "inbounds": [{
+      "port": 8088, // 监听端口
+      "protocol": "http",
+      "settings": {
+        "timeout:":0,
+        "accounts":[
+          {
+            "user":"hpusername",
+            "pass":"xbey546yhw3t5erh5y745"
+          }
+        ],
+        "allowTransparent":false,
+        "userLevel":0
+      }
+    },
     {
       "sniffing": {
         "enabled": true,
